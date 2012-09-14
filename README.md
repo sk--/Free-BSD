@@ -4,22 +4,20 @@ Free-BSD
 Remember when FreeBSD was hit w/the telnet vuln, and people went crazy to own it .. well this was (now oudated) tool that allowed for scanning and owning of large IP blocks. 
 
 
-//----------------------------
-// Telnetd stitching
-// - "scan, collect, exploit"
-// by: sk
-// updated: 12/29/11
-//
-// Todo: Make 100% autonomous
-// Todo: Add support for linux
-// Thoughts: Perhaps we just run a single command on each host
-//	this way we require no user interaction. For example:
-// 	echo "blah:hashhashhashhash:0:0:Blah:/var/root:/bin/sh" >> /etc/passwd
-// 
-// Shoutz: Bindshell crew, ohdae, vorbs, et all.
-//-----------------------------
 
-t
+Telnetd stitching
+- "scan, collect, exploit"
+by: sk
+updated: 12/29/11
+
+Todo: Make 100% autonomous
+Todo: Add support for linux
+Thoughts: Perhaps we just run a single command on each host
+        this way we require no user interaction. For example:
+	echo "blah:hashhashhashhash:0:0:Blah:/var/root:/bin/sh" >> /etc/passwd
+
+Shoutz: Bindshell crew, ohdae, vorbs, et all.
+
 --- Setup / PreReqs
 -------------------
 
